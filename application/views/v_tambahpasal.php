@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>Register Perkara | Pasal</title>
 
     <link href="<?php echo base_url();?>assets/css/lib/chartist/chartist.min.css" rel="stylesheet">
-	<link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url();?>assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -30,23 +30,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom_style.css">
 </head>
 
 <body class="fix-header fix-sidebar">
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
         <!-- header header  -->
-			<?php echo $header;  ?>
+            <?php echo $header;  ?>
 
         <!-- End header header -->
 
-	    <!-- LeftBar -->
-			<?php echo $leftbar;  ?>
+        <!-- LeftBar -->
+            <?php echo $leftbar;  ?>
 
         <!-- End Left Sidebar  -->
         <!-- Page wrapper  -->
@@ -75,7 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="tab-content">
                                
                                     <div class="p-20">
-								
+                                
                                         <h5>Tambah Data</h5>
 
                                         <div class="row justify-content-left">
@@ -88,46 +90,46 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                                               ?>
                                                 <div class="form-group row">
-													
-													<label class="col-lg-4 col-form-label" for="val-jenis">Kategori <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-jenis">Kategori <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
                                                      
-														
-														<select class="form-control" id="val-jenis" name="val-jenis">
-															<option value="" selected disabled hidden> Pilih Kategori </option>
-															<?php
-															
+                                                        
+                                                        <select class="form-control" id="val-jenis" name="val-jenis">
+                                                            <option value="" selected disabled hidden> Pilih Kategori </option>
+                                                            <?php
+                                                            
                                                                 foreach ($kategoripasal as $a) {
 
                                                             ?>
-															<option value="<?php echo $a->id_kategoripasal ; ?>">
-															<?php 
-																echo $a->nama_kategoripasal ;
-															?>
-															</option>
-																<?php } ?>
-														</select>
+                                                            <option value="<?php echo $a->id_kategoripasal ; ?>">
+                                                            <?php 
+                                                                echo $a->nama_kategoripasal ;
+                                                            ?>
+                                                            </option>
+                                                                <?php } ?>
+                                                        </select>
                                                     </div>
-													
+                                                    
                                                     <label class="col-lg-4 col-form-label" for="val-username">Pasal <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
                                                      
                                                         <input type="text" class="form-control" id="val-username" name="val-username" placeholder="Inputkan Pasal...">
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-tlp">Ayat <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-tlp">Ayat <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
                                                      
                                                         <input type="text" class="form-control" id="val-tlp" name="val-tlp" placeholder="Inputkan Ayat...">
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-alamat">Klasifikasi <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-alamat">Klasifikasi <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
                                                      
                                                         <textarea type="text" class="form-control" id="val-alamat" name="val-alamat" placeholder="Inputkan Klasifikasi..."></textarea>
                                                     </div>
-													
-													
+                                                    
+                                                    
                                                 </div>
 
                                                 <div class="form-group row">
@@ -154,7 +156,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- End Container fluid  -->
             <!-- footer -->
 
-			<?php echo $footer;  ?>
+            <?php echo $footer;  ?>
 
 
             <!-- End footer -->

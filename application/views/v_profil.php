@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>Register Perkara | Profil</title>
 
     <link href="<?php echo base_url();?>assets/css/lib/chartist/chartist.min.css" rel="stylesheet">
-	<link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url();?>assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -30,39 +30,41 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom_style.css">
 </head>
 
 <body class="fix-header fix-sidebar">
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
         <!-- header header  -->
-			<?php 
-				if ($this->session->userdata('role')=="topadmin") {
-					echo $header;
-				}
-				else {
-					echo $a_header;
-				}
-					
-			?>
+            <?php 
+                if ($this->session->userdata('role')=="topadmin") {
+                    echo $header;
+                }
+                else {
+                    echo $a_header;
+                }
+                    
+            ?>
 
         <!-- End header header -->
 
-	    <!-- LeftBar -->
-			<?php 
-				if ($this->session->userdata('role')=="topadmin") {
-					echo $leftbar;
-				}
-				else {
-					echo $a_leftbar;
-				}
-					
-			?>
+        <!-- LeftBar -->
+            <?php 
+                if ($this->session->userdata('role')=="topadmin") {
+                    echo $leftbar;
+                }
+                else {
+                    echo $a_leftbar;
+                }
+                    
+            ?>
 
         <!-- End Left Sidebar  -->
         <!-- Page wrapper  -->
@@ -90,12 +92,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                       <div class="alert alert-info alert-dismissible fade show">
                                             <i class="ti-check"> </i><?php echo $this->session->flashdata('suc'); ?>
                                       </div>
-							<?php endif; ?>
+                            <?php endif; ?>
                             <!-- Tab panes -->
                             <div class="tab-content">
                                
                                     <div class="p-20">
-								
+                                
                                         
 
                                         <div class="row justify-content-left">
@@ -103,50 +105,50 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <div class="form-validation">
 
                                               <?php
-											   foreach($users as $u){
+                                               foreach($users as $u){
                                                   $attributes = array('class' => 'form-valide');
                                                   echo form_open('profil/editdata/', $attributes);
 
                                               ?>
                                                 <div class="form-group row">
-													
+                                                    
                                                     <label class="col-lg-4 col-form-label" for="val-username">Username <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
-														 <input type="text" class="form-control" id="val-username" name="val-username" value="<?php echo $u->username ?>" disabled>
+                                                         <input type="text" class="form-control" id="val-username" name="val-username" value="<?php echo $u->username ?>" disabled>
                                                         
                                                     </div>
-													
-													 <label class="col-lg-4 col-form-label" for="val-nrp">NRP <span class="text-danger">*</span></label>
-													 <div class="col-lg-8">
-											
+                                                    
+                                                     <label class="col-lg-4 col-form-label" for="val-nrp">NRP <span class="text-danger">*</span></label>
+                                                     <div class="col-lg-8">
+                                            
                                                         <input type="text" class="form-control" id="val-nrp" name="val-nrp" value="<?php echo $u->nrp ?>" >
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-nama">Nama Lengkap <span class="text-danger">*</span></label>
-													 <div class="col-lg-8">
-											
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-nama">Nama Lengkap <span class="text-danger">*</span></label>
+                                                     <div class="col-lg-8">
+                                            
                                                         <input type="text" class="form-control" id="val-nama" name="val-nama" value="<?php echo $u->nama ?>" >
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-tlp">Nomor Kontak <span class="text-danger">*</span></label>
-													 <div class="col-lg-8">
-											
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-tlp">Nomor Kontak <span class="text-danger">*</span></label>
+                                                     <div class="col-lg-8">
+                                            
                                                         <input type="text" class="form-control" id="val-tlp" name="val-tlp" value="<?php echo $u->kontak ?>" >
                                                     </div>
-													 
-													 <label class="col-lg-4 col-form-label" for="val-jabatan">Jabatan <span class="text-danger">*</span></label>
-													 <div class="col-lg-8">
-											
+                                                     
+                                                     <label class="col-lg-4 col-form-label" for="val-jabatan">Jabatan <span class="text-danger">*</span></label>
+                                                     <div class="col-lg-8">
+                                            
                                                         <input type="text" class="form-control" id="val-jabatan" name="val-jabatan" value="<?php echo $u->jabatan ?>" >
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-email">Email <span class="text-danger">*</span></label>
-													 <div class="col-lg-8">
-											
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-email">Email <span class="text-danger">*</span></label>
+                                                     <div class="col-lg-8">
+                                            
                                                         <input type="text" class="form-control" id="val-email" name="val-email" value="<?php echo $u->email ?>" >
                                                     </div>
-													
-													 
+                                                    
+                                                     
                                                 </div>
 
                                                 <div class="form-group row">
@@ -154,7 +156,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                         <button type="submit" class="btn btn-success"><i class="fa fa-save"></i>  Simpan >></button>
                                                     </div>
                                                 </div>
-											   <?php echo form_close(); } ?>
+                                               <?php echo form_close(); } ?>
                                         </div>
                                       </div>
                                     </div>
@@ -173,7 +175,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- End Container fluid  -->
             <!-- footer -->
 
-			<?php echo $footer;  ?>
+            <?php echo $footer;  ?>
 
 
             <!-- End footer -->

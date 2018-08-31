@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>Register Perkara | Otmil</title>
 
     <link href="<?php echo base_url();?>assets/css/lib/chartist/chartist.min.css" rel="stylesheet">
-	<link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url();?>assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -30,23 +30,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom_style.css">
 </head>
 
 <body class="fix-header fix-sidebar">
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
         <!-- header header  -->
-			<?php echo $header;  ?>
+            <?php echo $header;  ?>
 
         <!-- End header header -->
 
-	    <!-- LeftBar -->
-			<?php echo $leftbar;  ?>
+        <!-- LeftBar -->
+            <?php echo $leftbar;  ?>
 
         <!-- End Left Sidebar  -->
         <!-- Page wrapper  -->
@@ -75,7 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="tab-content">
                                
                                     <div class="p-20">
-								
+                                
                                         <h5>Edit Data</h5>
 
                                         <div class="row justify-content-left">
@@ -83,7 +85,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <div class="form-validation">
 
                                               <?php
-											   foreach($odituratotmil as $u){
+                                               foreach($odituratotmil as $u){
                                                   $attributes = array('class' => 'form-valide');
                                                   echo form_open('odituratotmil/editdata/', $attributes);
 
@@ -92,11 +94,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                                                     <label class="col-lg-4 col-form-label" for="val-username">Otmil <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
-														 <input type="hidden" class="form-control" id="id" name="id" value="<?php echo $u->id_odituratotmil ?>" >
+                                                         <input type="hidden" class="form-control" id="id" name="id" value="<?php echo $u->id_odituratotmil ?>" >
                                                         <input type="text" class="form-control" id="val-username" name="val-username" value="<?php echo $u->nama_odituratotmil ?>" >
                                                     </div>
-													
-													
+                                                    
+                                                    
                                                 </div>
 
                                                 <div class="form-group row">
@@ -104,7 +106,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                         <button type="submit" class="btn btn-success"><i class="fa fa-save"></i>  Simpan Perubahan >></button>
                                                     </div>
                                                 </div>
-											   <?php echo form_close(); } ?>
+                                               <?php echo form_close(); } ?>
                                         </div>
                                       </div>
                                     </div>
@@ -123,7 +125,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- End Container fluid  -->
             <!-- footer -->
 
-			<?php echo $footer;  ?>
+            <?php echo $footer;  ?>
 
 
             <!-- End footer -->

@@ -6,12 +6,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="<?php echo base_url();?>">
-                        <!-- Logo icon -->
-                        <b><img src="<?php echo base_url();?>assets/images/logo.png" alt="homepage" class="dark-logo" /></b>
-                        <!--End Logo icon -->
-                        <!-- Logo text -->
-                        <span><img src="<?php echo base_url();?>assets/images/logo-text.png" alt="homepage" class="dark-logo" /></span>
+                    <a class="navbar-brand" href="<?php echo base_url('dashboard');?>">
+                        <div class="wrapper-image brand-dashboard">
+                            <img src="<?php echo base_url(); ?>assets/loginasset/images/babinkum.png"/>
+                        </div>
+                        <p class="text-uppercase">datakara</p>
                     </a>
                 </div>
                 <!-- End Logo -->
@@ -30,14 +29,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li class="nav-item hidden-sm-down search-box"> <a class="nav-link hidden-sm-down text-muted  " href="javascript:void(0)"><i class="ti-search"></i></a>
                             <form class="app-search">
                                 <input type="text" class="form-control" placeholder="Search here"> <a class="srh-btn"><i class="ti-close"></i></a> 
-							</form>
+                            </form>
                         </li>
                         <!-- Comment -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-muted text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-bell"></i>
-								<div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
-							</a>
-                            <div class="dropdown-menu dropdown-menu-right mailbox animated zoomIn">
+                                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right mailbox animated fadeInUp">
                                 <ul>
                                     <li>
                                         <div class="drop-title">Riwayat Log</div>
@@ -87,7 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <!-- Profile -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<?php echo base_url();?>assets/images/users/gravatar.png" alt="user" class="profile-pic" /> <?php echo $this->session->userdata('nama') ?></a>
-                            <div class="dropdown-menu dropdown-menu-right animated zoomIn">
+                            <div class="dropdown-menu dropdown-menu-right animated fadeInUp">
                                 <ul class="dropdown-user">
                                     <li><a href="<?php echo base_url(); ?>profil"><i class="ti-user"></i> Profil</a></li>
                                     <li><a href="<?php echo base_url(); ?>password"><i class="ti-unlock"></i> Update Password</a></li>

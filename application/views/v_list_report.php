@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>Register Perkara | Dashboard</title>
 
     <link href="<?php echo base_url();?>assets/css/lib/chartist/chartist.min.css" rel="stylesheet">
-	<link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url();?>assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -30,23 +30,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom_style.css">
 </head>
 
 <body class="fix-header fix-sidebar">
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
         <!-- header header  -->
-			<?php echo $header;  ?>
+            <?php echo $header;  ?>
 
         <!-- End header header -->
 
-	    <!-- LeftBar -->
-			<?php echo $leftbar;  ?>
+        <!-- LeftBar -->
+            <?php echo $leftbar;  ?>
 
         <!-- End Left Sidebar  -->
         <!-- Page wrapper  -->
@@ -88,442 +90,442 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                 <th scope="row">1</th>
                                                 <td>Perkara Pidana</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                  <th scope="row">2</th>
                                                 <td>Pelanggaran Lalu Lintas</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
-											 <tr>
+                                             <tr>
                                                  <th scope="row">3</th>
                                                 <td>Daftar Nominatif Perkara Per Tahun</td>
                                                 <td>
-													<a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
-												</td>
+                                                    <a href="#" type="button" class="btn btn-addon btn-sm btn-success btn-rounded m-b-10 m-l-5"><i class="ti-check"></i> Cek >></a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -540,7 +542,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- End Container fluid  -->
             <!-- footer -->
 
-			<?php echo $footer;  ?>
+            <?php echo $footer;  ?>
 
 
             <!-- End footer -->

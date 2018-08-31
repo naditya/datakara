@@ -13,11 +13,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url();?>assets/images/favicon.png">
+    <link rel="icon" href="<?php echo base_url();?>assets/loginasset/images/favicon.ico"/>
+    <link rel="shortcut icon" href="<?php echo base_url();?>assets/loginasset/images/favicon.ico" type="image/x-icon"/>
+
     <title>Register Perkara | Dashboard</title>
 
     <link href="<?php echo base_url();?>assets/css/lib/chartist/chartist.min.css" rel="stylesheet">
-	<link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url();?>assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -30,31 +32,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom_style.css">
 </head>
 
 <body class="fix-header fix-sidebar">
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
         <!-- header header  -->
-			<?php echo $header;  ?>
-		
+            <?php echo $header;  ?>
+        
         <!-- End header header -->
        
-	    <!-- LeftBar -->
-			<?php echo $leftbar;  ?>
-	   
+        <!-- LeftBar -->
+            <?php echo $leftbar;  ?>
+       
         <!-- End Left Sidebar  -->
         <!-- Page wrapper  -->
         <div class="page-wrapper">
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3> </div>
+                    <h3>Dashboard</h3> </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
@@ -68,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <!-- Start Page Content -->
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="card bg-primary p-20">
+                        <div class="card bg-default p-20">
                             <div class="media widget-ten">
                                 <div class="media-left meida media-middle">
                                     <span><i class="ti-bag f-s-40"></i></span>
@@ -81,7 +85,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card bg-pink p-20">
+                        <div class="card bg-default p-20">
                             <div class="media widget-ten">
                                 <div class="media-left meida media-middle">
                                     <span><i class="ti-folder f-s-40"></i></span>
@@ -94,7 +98,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card bg-success p-20">
+                        <div class="card bg-default p-20">
                             <div class="media widget-ten">
                                 <div class="media-left meida media-middle">
                                     <span><i class="ti-user f-s-40"></i></span>
@@ -107,7 +111,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card bg-danger p-20">
+                        <div class="card bg-default p-20">
                             <div class="media widget-ten">
                                 <div class="media-left meida media-middle">
                                     <span><i class="ti-location-pin f-s-40"></i></span>
@@ -128,7 +132,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h4>Sales</h4>
                             </div>
                             <div class="sales-chart">
-                                <div class="ct-bar-chart" style="height:350px"></div>
+                                <div class="ct-bar-chart" style="height:250px"></div>
                             </div>
                         </div>
                         <!-- /# card -->
@@ -140,54 +144,49 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h4>Visitor in Device</h4>
                             </div>
                             <div class="card-body">
-								<div class="table-responsive">
-									<table class="table table-hover ">
-										<thead>
-											<tr>
-												<th>Device</th>
-												<th>Visits</th>
-												<th>Avg. time</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Unknown</td>
-												<td>2,456</td>
-												<td>00:02:36</td>
-											</tr>
-											<tr>
-												<td>Apple iPad</td>
-												<td>1,006</td>
-												<td>00:03:41</td>
-											</tr>
-											<tr>
-												<td>Apple iPhone</td>
-												<td>68</td>
-												<td>00:04:10</td>
-											</tr>
-											<tr>
-												<td>HTC Desire</td>
-												<td>38</td>
-												<td>00:01:40</td>
-											</tr>
-											<tr>
-												<td>Samsung</td>
-												<td>20</td>
-												<td>00:04:54</td>
-											</tr>
-											<tr>
-												<td>Apple iPad</td>
-												<td>1,006</td>
-												<td>00:03:41</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
+                                <div class="table-responsive">
+                                    <table class="table table-hover ">
+                                        <thead>
+                                            <tr>
+                                                <th>Device</th>
+                                                <th>Visits</th>
+                                                <th>Avg. time</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Unknown</td>
+                                                <td>2,456</td>
+                                                <td>00:02:36</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Apple iPad</td>
+                                                <td>1,006</td>
+                                                <td>00:03:41</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Apple iPhone</td>
+                                                <td>68</td>
+                                                <td>00:04:10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>HTC Desire</td>
+                                                <td>38</td>
+                                                <td>00:01:40</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Samsung</td>
+                                                <td>20</td>
+                                                <td>00:04:54</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
-				</div>
-				<div class="row">
+                </div>
+                <div class="row">
                     <div class="col-lg-6">
                         <div class="card nestable-cart">
                             <div class="card-title">
@@ -199,7 +198,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>
                     </div>
-					<div class="col-lg-6">
+                    <div class="col-lg-6">
                         <div class="card">
                             <div class="card-block">
                                 <h4 class="card-title">Visitor</h4>
@@ -228,7 +227,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="col-lg-8">
                                                 <div class="current-progressbar">
                                                     <div class="progress">
-                                                        <div class="progress-bar progress-bar-primary w-40" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-warning w-40" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                                                             40%
                                                         </div>
                                                     </div>
@@ -244,7 +243,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="col-lg-8">
                                                 <div class="current-progressbar">
                                                     <div class="progress">
-                                                        <div class="progress-bar progress-bar-primary w-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-warning w-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                                                             60%
                                                         </div>
                                                     </div>
@@ -276,7 +275,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="col-lg-8">
                                                 <div class="current-progressbar">
                                                     <div class="progress">
-                                                        <div class="progress-bar progress-bar-primary w-90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-success w-90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                                                             90%
                                                         </div>
                                                     </div>
@@ -292,7 +291,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="col-lg-8">
                                                 <div class="current-progressbar">
                                                     <div class="progress">
-                                                        <div class="progress-bar progress-bar-primary w-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-warning w-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                                                             60%
                                                         </div>
                                                     </div>
@@ -308,7 +307,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="col-lg-8">
                                                 <div class="current-progressbar">
                                                     <div class="progress">
-                                                        <div class="progress-bar progress-bar-primary w-70" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-success w-70" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                                                             70%
                                                         </div>
                                                     </div>
@@ -324,7 +323,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="col-lg-8">
                                                 <div class="current-progressbar">
                                                     <div class="progress">
-                                                        <div class="progress-bar progress-bar-primary w-90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-success w-90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                                                             90%
                                                         </div>
                                                     </div>
@@ -346,7 +345,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="recent-meaasge">
                                     <div class="media">
                                         <div class="media-left">
-                                            <a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
+                                            <a href="#"><img alt="..." src="<?php echo base_url(); ?>assets/images/avatar/1.jpg" class="media-object"></a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">john doe</h4>
@@ -356,7 +355,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <a href="#"><img alt="..." src="images/avatar/2.jpg" class="media-object"></a>
+                                            <a href="#"><img alt="..." src="<?php echo base_url(); ?>assets/images/avatar/2.jpg" class="media-object"></a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Mr. John</h4>
@@ -366,7 +365,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <a href="#"><img alt="..." src="images/avatar/3.jpg" class="media-object"></a>
+                                            <a href="#"><img alt="..." src="<?php echo base_url(); ?>assets/images/avatar/3.jpg" class="media-object"></a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Mr. Michael</h4>
@@ -376,7 +375,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                     <div class="media no-border">
                                         <div class="media-left">
-                                            <a href="#"><img alt="..." src="images/avatar/2.jpg" class="media-object"></a>
+                                            <a href="#"><img alt="..." src="<?php echo base_url(); ?>assets/images/avatar/2.jpg" class="media-object"></a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Mr. John</h4>
@@ -437,9 +436,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- End Container fluid  -->
             <!-- footer -->
             
-			<?php echo $footer;  ?>
-			
-			
+            <?php echo $footer;  ?>
+            
+            
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->

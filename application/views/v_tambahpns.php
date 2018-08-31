@@ -17,11 +17,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>Register Perkara | PNS</title>
 
     <link href="<?php echo base_url();?>assets/css/lib/chartist/chartist.min.css" rel="stylesheet">
-	<link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url();?>assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
-	
+    
     <link href="<?php echo base_url();?>assets/css/lib/datepicker/bootstrap-datepicker3.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="<?php echo base_url();?>assets/css/helper.css" rel="stylesheet">
@@ -32,37 +32,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom_style.css">
 </head>
 
 <body class="fix-header fix-sidebar">
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
         <!-- header header  -->
-			<?php 
-				if ($this->session->userdata('role') == "topadmin" ) {
-					echo $header;
-				}
-				else {
-					echo $a_header;
-				}
-			?>
+            <?php 
+                if ($this->session->userdata('role') == "topadmin" ) {
+                    echo $header;
+                }
+                else {
+                    echo $a_header;
+                }
+            ?>
 
         <!-- End header header -->
 
-	    <!-- LeftBar -->
-			<?php 
-				if ($this->session->userdata('role') == "topadmin" ) {
-					echo $leftbar;
-				}
-				else {
-					echo $a_leftbar;
-				}
-			?>
+        <!-- LeftBar -->
+            <?php 
+                if ($this->session->userdata('role') == "topadmin" ) {
+                    echo $leftbar;
+                }
+                else {
+                    echo $a_leftbar;
+                }
+            ?>
 
         <!-- End Left Sidebar  -->
         <!-- Page wrapper  -->
@@ -91,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="tab-content">
                                
                                     <div class="p-20">
-								
+                                
                                         <h5>Form Tambah PNS</h5>
 
                                         <div class="row justify-content-left">
@@ -104,202 +106,202 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                                               ?>
                                                 <div class="form-group row">
-													<label class="col-lg-4 col-form-label" for="val-nrp">NIP <span class="text-danger">*</span></label>
+                                                    <label class="col-lg-4 col-form-label" for="val-nrp">NIP <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
                                                      
-														 <input type="text" class="form-control" id="val-nrp" name="val-nrp" placeholder="Inputkan NIP ...">
-														
+                                                         <input type="text" class="form-control" id="val-nrp" name="val-nrp" placeholder="Inputkan NIP ...">
+                                                        
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-nama">Nama Lengkap <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-nama">Nama Lengkap <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
                                                      
-														 <input type="text" class="form-control" id="val-nama" name="val-nama" placeholder="Inputkan Nama ...">
-														
+                                                         <input type="text" class="form-control" id="val-nama" name="val-nama" placeholder="Inputkan Nama ...">
+                                                        
                                                     </div>
-												
-													<label class="col-lg-4 col-form-label" for="val-place">Tempat Lahir <span class="text-danger">*</span></label>
+                                                
+                                                    <label class="col-lg-4 col-form-label" for="val-place">Tempat Lahir <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
                                                      
-														 <input type="text" class="form-control" id="val-place" name="val-place" placeholder="Inputkan Tempat Lahir ...">
-														
+                                                         <input type="text" class="form-control" id="val-place" name="val-place" placeholder="Inputkan Tempat Lahir ...">
+                                                        
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-tgl">Tanggal Lahir <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-tgl">Tanggal Lahir <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
                                                      
-														 <input type="date" class="form-control" id="val-tgl" name="val-tgl" placeholder="dd/mm/yyyy">
-														
+                                                         <input type="date" class="form-control" id="val-tgl" name="val-tgl" placeholder="dd/mm/yyyy">
+                                                        
                                                     </div>
-													
-													
-													
-													 <label class="col-lg-4 col-form-label" for="val-jenis">Jenis Kelamin <span class="text-danger">*</span></label>
+                                                    
+                                                    
+                                                    
+                                                     <label class="col-lg-4 col-form-label" for="val-jenis">Jenis Kelamin <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
-													
-														<select class="form-control" id="val-jenis" name="val-jenis">
-															<option value="" selected disabled hidden>Pilih Jenis Kelamin</option>
-															<option value="L">Laki-Laki</option>
-															<option value="P">Perempuan</option>
-														</select>
+                                                    
+                                                        <select class="form-control" id="val-jenis" name="val-jenis">
+                                                            <option value="" selected disabled hidden>Pilih Jenis Kelamin</option>
+                                                            <option value="L">Laki-Laki</option>
+                                                            <option value="P">Perempuan</option>
+                                                        </select>
                                                      
                                                        
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-agama">Agama <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-agama">Agama <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
-													
-														<select class="form-control" id="val-agama" name="val-agama">
-															<option value="" selected disabled hidden> Pilih Agama </option>
-															<?php
-															
+                                                    
+                                                        <select class="form-control" id="val-agama" name="val-agama">
+                                                            <option value="" selected disabled hidden> Pilih Agama </option>
+                                                            <?php
+                                                            
                                                                 foreach ($agama as $a) {
 
                                                             ?>
-															<option value="<?php echo $a->id_agama ; ?>">
-															<?php 
-																echo $a->nama_agama ;
-															?>
-															</option>
-																<?php } ?>
-														</select>
+                                                            <option value="<?php echo $a->id_agama ; ?>">
+                                                            <?php 
+                                                                echo $a->nama_agama ;
+                                                            ?>
+                                                            </option>
+                                                                <?php } ?>
+                                                        </select>
                                                      
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-suku">Suku <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-suku">Suku <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
-													
-														<select class="form-control" id="val-suku" name="val-suku">
-															<option value="" selected disabled hidden> Pilih Suku </option>
-															<?php
-															
+                                                    
+                                                        <select class="form-control" id="val-suku" name="val-suku">
+                                                            <option value="" selected disabled hidden> Pilih Suku </option>
+                                                            <?php
+                                                            
                                                                 foreach ($suku as $s) {
 
                                                             ?>
-															<option value="<?php echo $s->id_suku ; ?>">
-															<?php 
-																echo $s->nama_suku ;
-															?>
-															</option>
-																<?php } ?>
-														</select>
+                                                            <option value="<?php echo $s->id_suku ; ?>">
+                                                            <?php 
+                                                                echo $s->nama_suku ;
+                                                            ?>
+                                                            </option>
+                                                                <?php } ?>
+                                                        </select>
                                                      
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-goldar">Golongan Darah <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-goldar">Golongan Darah <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
-													
-														<select class="form-control" id="val-goldar" name="val-goldar">
-															<option value="" selected disabled hidden> Pilih Gol Darah </option>
-															<?php
-															
+                                                    
+                                                        <select class="form-control" id="val-goldar" name="val-goldar">
+                                                            <option value="" selected disabled hidden> Pilih Gol Darah </option>
+                                                            <?php
+                                                            
                                                                 foreach ($goldar as $gol) {
 
                                                             ?>
-															<option value="<?php echo $gol->id_goldar ; ?>">
-															<?php 
-																echo $gol->nama_goldar ;
-															?>
-															</option>
-																<?php } ?>
-														</select>
+                                                            <option value="<?php echo $gol->id_goldar ; ?>">
+                                                            <?php 
+                                                                echo $gol->nama_goldar ;
+                                                            ?>
+                                                            </option>
+                                                                <?php } ?>
+                                                        </select>
                                                      
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-status">Status Perkawinan <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-status">Status Perkawinan <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
-													
-														<select class="form-control" id="val-status" name="val-status">
-															<option value="" selected disabled hidden> Pilih Status Perkawinan </option>
-															<?php
-															
+                                                    
+                                                        <select class="form-control" id="val-status" name="val-status">
+                                                            <option value="" selected disabled hidden> Pilih Status Perkawinan </option>
+                                                            <?php
+                                                            
                                                                 foreach ($statkawin as $stat) {
 
                                                             ?>
-															<option value="<?php echo $stat->id_statkawin ; ?>">
-															<?php 
-																echo $stat->nama_statkawin ;
-															?>
-															</option>
-																<?php } ?>
-														</select>
+                                                            <option value="<?php echo $stat->id_statkawin ; ?>">
+                                                            <?php 
+                                                                echo $stat->nama_statkawin ;
+                                                            ?>
+                                                            </option>
+                                                                <?php } ?>
+                                                        </select>
                                                      
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-alamat">Alamat <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-alamat">Alamat <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
                                                      
-														 <input type="text" class="form-control" id="val-alamat" name="val-alamat" placeholder="Inputkan Alamat ...">
-														
+                                                         <input type="text" class="form-control" id="val-alamat" name="val-alamat" placeholder="Inputkan Alamat ...">
+                                                        
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-pangkat">Golongan <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-pangkat">Golongan <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
-													
-														<select class="form-control" id="val-pangkat" name="val-pangkat">
-															<option value="" selected hidden> Pilih Golongan </option>
-															<?php
-															
+                                                    
+                                                        <select class="form-control" id="val-pangkat" name="val-pangkat">
+                                                            <option value="" selected hidden> Pilih Golongan </option>
+                                                            <?php
+                                                            
                                                                 foreach ($golpang as $pa) {
 
                                                             ?>
-															<option value="<?php echo $pa->id_pangpns; ?>">
-															<?php 
-																echo $pa->jenis_pangpns;
-																echo " - ";
-																echo $pa->nama_pangpns;
-															?>
-															</option>
-																<?php } ?>
-														</select>
+                                                            <option value="<?php echo $pa->id_pangpns; ?>">
+                                                            <?php 
+                                                                echo $pa->jenis_pangpns;
+                                                                echo " - ";
+                                                                echo $pa->nama_pangpns;
+                                                            ?>
+                                                            </option>
+                                                                <?php } ?>
+                                                        </select>
                                                      
                                                     </div>
-													
-													
-													
-													<label class="col-lg-4 col-form-label" for="val-kesatuan">Kesatuan <span class="text-danger">*</span></label>
+                                                    
+                                                    
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-kesatuan">Kesatuan <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
                                                      
-														 <input type="text" class="form-control" id="val-kesatuan" name="val-kesatuan" placeholder="Inputkan Kesatuan ...">
-														
+                                                         <input type="text" class="form-control" id="val-kesatuan" name="val-kesatuan" placeholder="Inputkan Kesatuan ...">
+                                                        
                                                     </div>
-													
-													<label class="col-lg-4 col-form-label" for="val-jabatan">Jabatan <span class="text-danger">*</span></label>
+                                                    
+                                                    <label class="col-lg-4 col-form-label" for="val-jabatan">Jabatan <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
                                                      
-														 <input type="text" class="form-control" id="val-jabatan" name="val-jabatan" placeholder="Inputkan Jabatan ...">
-														
+                                                         <input type="text" class="form-control" id="val-jabatan" name="val-jabatan" placeholder="Inputkan Jabatan ...">
+                                                        
                                                     </div>
-													
-													<?php 
-														if ($this->session->userdata('role') == "topadmin" ) {
-													?>
-													 <label class="col-lg-4 col-form-label" for="val-role">Oditurat <span class="text-danger">*</span></label>
+                                                    
+                                                    <?php 
+                                                        if ($this->session->userdata('role') == "topadmin" ) {
+                                                    ?>
+                                                     <label class="col-lg-4 col-form-label" for="val-role">Oditurat <span class="text-danger">*</span></label>
                                                     <div class="col-lg-8">
-													
-														<select class="form-control" id="val-role" name="val-role">
-															<option value="" selected disabled hidden> Pilih Oditurat Terkait .. </option>
-															<?php
-															
+                                                    
+                                                        <select class="form-control" id="val-role" name="val-role">
+                                                            <option value="" selected disabled hidden> Pilih Oditurat Terkait .. </option>
+                                                            <?php
+                                                            
                                                                 foreach ($akses as $aks) {
 
                                                             ?>
-															<option value="<?php echo $aks->nama_akses ; ?>">
-															<?php 
-																echo $aks->oditurat ;
-															?>
-															</option>
-																<?php } ?>
-														</select>
+                                                            <option value="<?php echo $aks->nama_akses ; ?>">
+                                                            <?php 
+                                                                echo $aks->oditurat ;
+                                                            ?>
+                                                            </option>
+                                                                <?php } ?>
+                                                        </select>
                                                      
                                                        
                                                     </div>
-														<?php
-														}
-														else {
-															
-														}
-													?>
+                                                        <?php
+                                                        }
+                                                        else {
+                                                            
+                                                        }
+                                                    ?>
 
                                                 </div>
 
@@ -327,7 +329,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- End Container fluid  -->
             <!-- footer -->
 
-			<?php echo $footer;  ?>
+            <?php echo $footer;  ?>
 
 
             <!-- End footer -->
@@ -381,12 +383,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Form validation -->
     <script src="<?php echo base_url();?>assets/js/lib/form-validation/jquery.validate.min.js"></script>
     <script src="<?php echo base_url();?>assets/js/lib/form-validation/jquery.validate-init.js"></script>
-	
-	<script src="<?php echo base_url();?>assets/js/lib/datepicker/bootstrap-datepicker.min.js"></script>
+    
+    <script src="<?php echo base_url();?>assets/js/lib/datepicker/bootstrap-datepicker.min.js"></script>
     <!--Custom JavaScript -->
     <script src="<?php echo base_url();?>assets/js/custom.min.js"></script>
-	
-	<script>
+    
+    <script>
     $(document).ready(function(){
       var date_input=$('input[name="date"]'); //our date input has the name "date"
       var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";

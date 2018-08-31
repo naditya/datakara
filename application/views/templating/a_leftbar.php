@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                         <li class="nav-devider"></li>
-						<li class="nav-label"><font color="red">Level : <?php echo $this->session->userdata('role') ?></font></li>
+                        <li class="nav-label"><font color="red">Level : <?php echo $this->session->userdata('role') ?></font></li>
                         <li class="nav-label">Beranda</li>
                         <li> <a href="<?php echo base_url(); ?>dashboard" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard </span></a>
 
@@ -30,12 +30,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </ul>
                         </li>
                         <li> 
-							<a href="#" aria-expanded="false"><i class="fa fa-gavel"></i><span class="hide-menu">Pelanggaran Lalu Lintas</span></a>
+                            <a href="#" aria-expanded="false"><i class="fa fa-gavel"></i><span class="hide-menu">Pelanggaran Lalu Lintas</span></a>
                         </li>
-						
-						
+                        
+                        
                         <li class="nav-label">Cetak Form</li>
-						 <li> <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-print"></i><span class="hide-menu">Cetak Formulir</span></a>
+                         <li> <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-print"></i><span class="hide-menu">Cetak Formulir</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="#">Model 30</a></li>
                                 <li><a href="#">Model 31</a></li>
@@ -51,18 +51,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         
                        
                         <!--
-						<li class="nav-label">Laporan</li>
-						<li> 
-							<a href="<?php // echo base_url(); ?>listreport" aria-expanded="false"><i class="fa fa-th-list"></i><span class="hide-menu">Daftar Laporan</span></a>
+                        <li class="nav-label">Laporan</li>
+                        <li> 
+                            <a href="<?php // echo base_url(); ?>listreport" aria-expanded="false"><i class="fa fa-th-list"></i><span class="hide-menu">Daftar Laporan</span></a>
                         </li>
-						-->
-						
-						<li class="nav-label">Personil</li>
-						<li> 
-							<a href="<?php echo base_url(); ?>personil" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Data Personil</span></a>
+                        -->
+                        
+                        <li class="nav-label">Personil</li>
+                        <li> 
+                            <a href="<?php echo base_url(); ?>personil" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Data Personil</span></a>
                         </li>
-						<li> 
-							<a href="<?php echo base_url(); ?>pns" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Data PNS</span></a>
+                        <li> 
+                            <a href="<?php echo base_url(); ?>pns" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Data PNS</span></a>
                         </li>
 
                   

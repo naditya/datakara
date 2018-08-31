@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>Register Perkara | Dashboard</title>
 
     <link href="<?php echo base_url();?>assets/css/lib/chartist/chartist.min.css" rel="stylesheet">
-	<link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url();?>assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -30,24 +30,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom_style.css">
 </head>
 
 <body class="fix-header fix-sidebar">
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
         <!-- header header  -->
-			<?php echo $a_header;  ?>
-		
+            <?php echo $a_header;  ?>
+        
         <!-- End header header -->
        
-	    <!-- LeftBar -->
-			<?php echo $a_leftbar;  ?>
-	   
+        <!-- LeftBar -->
+            <?php echo $a_leftbar;  ?>
+       
         <!-- End Left Sidebar  -->
         <!-- Page wrapper  -->
         <div class="page-wrapper">
@@ -140,54 +142,54 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h4>Visitor in Device</h4>
                             </div>
                             <div class="card-body">
-								<div class="table-responsive">
-									<table class="table table-hover ">
-										<thead>
-											<tr>
-												<th>Device</th>
-												<th>Visits</th>
-												<th>Avg. time</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Unknown</td>
-												<td>2,456</td>
-												<td>00:02:36</td>
-											</tr>
-											<tr>
-												<td>Apple iPad</td>
-												<td>1,006</td>
-												<td>00:03:41</td>
-											</tr>
-											<tr>
-												<td>Apple iPhone</td>
-												<td>68</td>
-												<td>00:04:10</td>
-											</tr>
-											<tr>
-												<td>HTC Desire</td>
-												<td>38</td>
-												<td>00:01:40</td>
-											</tr>
-											<tr>
-												<td>Samsung</td>
-												<td>20</td>
-												<td>00:04:54</td>
-											</tr>
-											<tr>
-												<td>Apple iPad</td>
-												<td>1,006</td>
-												<td>00:03:41</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
+                                <div class="table-responsive">
+                                    <table class="table table-hover ">
+                                        <thead>
+                                            <tr>
+                                                <th>Device</th>
+                                                <th>Visits</th>
+                                                <th>Avg. time</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Unknown</td>
+                                                <td>2,456</td>
+                                                <td>00:02:36</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Apple iPad</td>
+                                                <td>1,006</td>
+                                                <td>00:03:41</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Apple iPhone</td>
+                                                <td>68</td>
+                                                <td>00:04:10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>HTC Desire</td>
+                                                <td>38</td>
+                                                <td>00:01:40</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Samsung</td>
+                                                <td>20</td>
+                                                <td>00:04:54</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Apple iPad</td>
+                                                <td>1,006</td>
+                                                <td>00:03:41</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
-				</div>
-				<div class="row">
+                </div>
+                <div class="row">
                     <div class="col-lg-6">
                         <div class="card nestable-cart">
                             <div class="card-title">
@@ -199,7 +201,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>
                     </div>
-					<div class="col-lg-6">
+                    <div class="col-lg-6">
                         <div class="card">
                             <div class="card-block">
                                 <h4 class="card-title">Visitor</h4>
@@ -437,9 +439,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- End Container fluid  -->
             <!-- footer -->
             
-			<?php echo $footer;  ?>
-			
-			
+            <?php echo $footer;  ?>
+            
+            
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->

@@ -26,13 +26,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom_style.css">
 </head>
 
 <body class="fix-header fix-sidebar">
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
@@ -71,16 +73,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <input type="password" name="password" id="val-password" class="form-control" placeholder="Inputkan password">
                                     </div>
                                     <!--
-									<div class="checkbox">
+                                    <div class="checkbox">
                                         <label>
-        										<input type="checkbox"> Remember Me
-        									</label>
+                                                <input type="checkbox"> Remember Me
+                                            </label>
                                         <label class="pull-right">
-        										<a href="#">Forgotten Password?</a>
-        									</label>
+                                                <a href="#">Forgotten Password?</a>
+                                            </label>
 
                                     </div>
-									-->
+                                    -->
                                     <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Login</button>
 
                                 <?php echo form_close(); ?>

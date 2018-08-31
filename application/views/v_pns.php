@@ -17,51 +17,53 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>Register Perkara | Data PNS</title>
 
     <link href="<?php echo base_url();?>assets/css/lib/chartist/chartist.min.css" rel="stylesheet">
-	<link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url();?>assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="<?php echo base_url();?>assets/css/helper.css" rel="stylesheet">
     <link href="<?php echo base_url();?>assets/css/style.css" rel="stylesheet">
-	<link href="<?php echo base_url();?>assets/css/lib/sweetalert/sweetalert.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>assets/css/lib/sweetalert/sweetalert.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:** -->
     <!--[if lt IE 9]>
     <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom_style.css">
 </head>
 
 <body class="fix-header fix-sidebar">
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
         <!-- header header  -->
-			<?php 
-				if ($this->session->userdata('role') == "topadmin" ) {
-					echo $header;
-				}
-				else {
-					echo $a_header;
-				}
-			?>
+            <?php 
+                if ($this->session->userdata('role') == "topadmin" ) {
+                    echo $header;
+                }
+                else {
+                    echo $a_header;
+                }
+            ?>
 
         <!-- End header header -->
 
-	    <!-- LeftBar -->
-			<?php 
-				if ($this->session->userdata('role') == "topadmin" ) {
-					echo $leftbar;
-				}
-				else {
-					echo $a_leftbar;
-				}
-			?>
+        <!-- LeftBar -->
+            <?php 
+                if ($this->session->userdata('role') == "topadmin" ) {
+                    echo $leftbar;
+                }
+                else {
+                    echo $a_leftbar;
+                }
+            ?>
 
         <!-- End Left Sidebar  -->
         <!-- Page wrapper  -->
@@ -93,18 +95,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                       <div class="col-12">
                                           <div class="card">
                                               <div class="card-body">
-                                                  <a href="<?php echo base_url(); ?>pns/form" type="button" class="btn btn-success m-b-10 m-l-5">+ Tambah Data PNS</a>
-														<?php if ($this->session->flashdata('suc')) : ?>
+                                                  <a href="<?php echo base_url(); ?>pns/form" type="button" class="btn  btn-default bg-black c-white  m-b-10 m-l-5">+ Tambah Data PNS</a>
+                                                        <?php if ($this->session->flashdata('suc')) : ?>
                                                           <div class="alert alert-info alert-dismissible fade show">
                                                             <i class="ti-check"> </i><?php echo $this->session->flashdata('suc'); ?>
                                                           </div>
-														<?php endif; ?>
-													  
-														<?php if ($this->session->flashdata('del')) : ?>
+                                                        <?php endif; ?>
+                                                      
+                                                        <?php if ($this->session->flashdata('del')) : ?>
                                                           <div class="alert alert-info alert-dismissible fade show">
                                                             <i class="ti-check"> </i><?php echo $this->session->flashdata('del'); ?>
                                                           </div>
-														<?php endif; ?>
+                                                        <?php endif; ?>
                                                   <!-- <h6 class="card-subtitle">Export data untuk Copy, CSV, Excel, PDF & Print</h6> -->
                                                   <div class="table-responsive m-t-40">
                                                      <table id="example23" class="display nowrap table table-hover table-bordered" cellspacing="0" width="100%">
@@ -140,11 +142,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                                                               <tr>
                                                                   <td><?php echo $no++ ?></td>
-																  <td><?php echo $a->nip; ?></td>
+                                                                  <td><?php echo $a->nip; ?></td>
                                                                   <td><?php echo $a->nama; ?></td>
                                                                   <td><?php echo $a->jenis_pangpns; ?></td>
-																  <td><?php echo $a->jabatan; ?></td>
-																  <td><?php echo $a->oditurat; ?></td>
+                                                                  <td><?php echo $a->jabatan; ?></td>
+                                                                  <td><?php echo $a->oditurat; ?></td>
                                                                   <td>
                                                                     
                                                                         <a href="<?php echo base_url(); ?>pns/dataform/<?php echo $a->nip ; ?>" type="button" class="btn btn-addon btn-sm btn-primary btn-rounded m-b-10 m-l-5"><i class="ti-pencil"></i> Edit</a>
@@ -152,7 +154,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
                                                                         <a href="javascript:void(0) ;" onclick="hapus(<?php echo $a->nip;?>) ;" type="button" class="btn btn-addon btn-sm btn-danger sweet-confirm btn-rounded m-b-10 m-l-5"><i class="ti-trash"></i> Hapus</a>
-																	
+                                                                    
                                                                   </td>
                                                               </tr>
 
@@ -179,7 +181,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- End Container fluid  -->
             <!-- footer -->
 
-			<?php echo $footer;  ?>
+            <?php echo $footer;  ?>
 
 
             <!-- End footer -->
@@ -212,7 +214,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="<?php echo base_url();?>assets/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
     <script src="<?php echo base_url();?>assets/js/lib/datatables/datatables-init.js"></script>
 
-	<script type="text/javascript">
+    <script type="text/javascript">
     var url="<?php echo base_url();?>";
     function hapus(id){
        var r=confirm("Apakah anda yakin akan menghapus data tersebut ?")
@@ -221,8 +223,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         else
           return false;
         } 
-	</script>
-	
+    </script>
+    
 </body>
 
 </html>

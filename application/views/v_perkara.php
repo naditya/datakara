@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>Register Perkara | Dashboard</title>
 
     <link href="<?php echo base_url();?>assets/css/lib/chartist/chartist.min.css" rel="stylesheet">
-	<link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url();?>assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -32,37 +32,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="https:**oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https:**oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom_style.css">
 </head>
 
 <body class="fix-header fix-sidebar">
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
         <!-- header header  -->
-			<?php 
-				if ($this->session->userdata('role') == "topadmin" ) {
-					echo $header;
-				}
-				else {
-					echo $a_header;
-				}
-			?>
+            <?php 
+                if ($this->session->userdata('role') == "topadmin" ) {
+                    echo $header;
+                }
+                else {
+                    echo $a_header;
+                }
+            ?>
 
         <!-- End header header -->
 
-	    <!-- LeftBar -->
-			<?php 
-				if ($this->session->userdata('role') == "topadmin" ) {
-					echo $leftbar;
-				}
-				else {
-					echo $a_leftbar;
-				}
-			?>
+        <!-- LeftBar -->
+            <?php 
+                if ($this->session->userdata('role') == "topadmin" ) {
+                    echo $leftbar;
+                }
+                else {
+                    echo $a_leftbar;
+                }
+            ?>
 
         <!-- End Left Sidebar  -->
         <!-- Page wrapper  -->
@@ -123,7 +125,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                               <div class="form-group input_fields_wrap1">
                                               <label class="control-label">Kategori Kasus</label>
                                               <button type="button" class="btn btn-info btn-sm btn-rounded m-b-10 m-l-5 add_field_button1">+ Kasus Lain</button>
-											  <select name="addkasus[]" class="form-control custom-select">
+                                              <select name="addkasus[]" class="form-control custom-select">
                                                         <option value="">Male</option>
                                                         <option value="">Female</option>
                                               </select>
@@ -164,7 +166,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- End Container fluid  -->
             <!-- footer -->
 
-			<?php echo $footer;  ?>
+            <?php echo $footer;  ?>
 
 
             <!-- End footer -->
