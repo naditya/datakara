@@ -343,6 +343,7 @@ a.c-gray:hover{
 }
 .table > tbody > tr > td{
     line-height: 24px;
+    color: #343434;
 }
 .table > thead > tr > th{
     line-height: 25px;
@@ -357,6 +358,9 @@ a.c-gray:hover{
     color: #999999;
     opacity: 1;
     left: 0;
+}
+.btn{
+    border-radius: 4px;
 }
 
 
